@@ -1,0 +1,5 @@
+<launch>
+	<!--RS232 driver-->
+	<node name="beebot_driver_node" pkg="beebot_driver" type="beebot_driver_node" output="screen"
+		args="_port:=/dev/ttyUSB0"/>
+</launch>
